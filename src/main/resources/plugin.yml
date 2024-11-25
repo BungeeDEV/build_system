@@ -1,0 +1,34 @@
+name: HighNoonMC_BuildSystem
+version: '${version}'
+main: de.highnoonmc.BuildSystem.BuildSystem
+api-version: '1.20'
+
+commands:
+  gm:
+    aliases: [gamemode]
+    description: Ändert deinen Gamemode zu einem neuen.
+  day:
+  night:
+  build:
+    aliases: [b]
+    description: Nur in diesem Modus kannst du Blöcke verändern.
+  rang:
+    aliases: [rank]
+  worlds:
+    aliases: [w]
+    description: Öffnet das Welten-Overview Menü...
+  visit:
+    description: Nur dann kann ein Spieler den Server kurzzeitig betreten.
+  vanish:
+    description: Werde für andere Spieler unsichtbar.
+  rank:
+    aliases: [rang]
+    description: Öffne ein Inventar um den Rang eines Spielers zu setzen.
+  invsee:
+    aliases:
+      - see
+      - spy
+    description: Hiermiet kannst du auf das Inventar eines Spielers zugreifen.
+  warp:
+  warps:
+  builder:
